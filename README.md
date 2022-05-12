@@ -10,7 +10,7 @@ O objetivo é construir uma aplicação web front-end que mostre os Resultados d
 
 ### 🏁 Para rodar localmente o projeto:
 Clone este repositório em sua máquina:
-* git clone https://github.com/NATTQUEIROZ/NatImoveis.git
+* git clone https://github.com/NATTQUEIROZ/Brainn-Loterias.git
 
 ##### Rode:
 * npm install
