@@ -8,6 +8,18 @@ O objetivo é construir uma aplicação web front-end que mostre os Resultados d
 * Layout: https://www.figma.com/file/H2qrYBCFMf4didYmxRwTxP/Brainn-Frontend-Challenge
 * API: https://brainn-api-loterias.herokuapp.com
 
+### 🏁 Para rodar localmente o projeto:
+Clone este repositório em sua máquina:
+* git clone https://github.com/NATTQUEIROZ/NatImoveis.git
+
+##### Rode:
+* npm install
+* npm install styled-components
+* npm install axios
+
+##### Para iniciar:
+* npm run start
+
 ### Funcionalidades
 
 * A aplicação suporta 6 sorteios: Mega-sena, Quina, Lotofácil, Lotomania, Timemania e Dia de sorte
