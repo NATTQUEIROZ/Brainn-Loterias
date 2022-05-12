@@ -10,9 +10,8 @@ export const ScreenContainer = styled.div`
 
 export const SidebarContainer = styled.div`
     height: 100%;
-    width: 600px;
-    margin-left: -10%;
-    background: url(${props => props.sidebarColor});
+    width: 500px;
+    background: url(${props => props.sidebarColor}) center center;
 `
 
 export const SelectContainer = styled.select`
@@ -23,7 +22,7 @@ export const SelectContainer = styled.select`
     position: absolute;
     left: 8%;
     right: 80.51%;
-    top: 20%;
+    top: 10%;
     bottom: 87.3%;
     border: none;
     border-radius: 10px;
@@ -32,7 +31,7 @@ export const SelectContainer = styled.select`
 
 export const Lotteries = styled.p`
     position: absolute;
-    left: 8%;
+    left: 12%;
     right: 73.57%;
     top: 42%;
     bottom: 48.52%;
@@ -46,7 +45,7 @@ export const Lotteries = styled.p`
 
 export const Path2 = styled.img`
     position: absolute;
-    left: 1.99%;
+    left: 5.99%;
     right: 90.31%;
     top: 44.41%;
     bottom: 49.47%;
@@ -57,7 +56,7 @@ export const Path2 = styled.img`
 
 export const Path3 = styled.img`
     position: absolute;
-    left: 1.99%;
+    left: 5.99%;
     right: 90.31%;
     top: 44.41%;
     bottom: 49.47%;
@@ -68,7 +67,7 @@ export const Path3 = styled.img`
 
 export const ContestInfos = styled.p`
     position: absolute;
-    left: 6%;
+    left: 8%;
     right: 84.83%;
     top: 86.76%;
     bottom: 11.84%;
@@ -86,7 +85,7 @@ export const ContestInfos = styled.p`
 
 export const ContestName = styled.p`
     position: absolute;
-    left: 6%;
+    left: 8%;
     right: 77.69%;
     top: 89.49%;
     bottom: 8.59%;
@@ -104,20 +103,20 @@ export const ContestName = styled.p`
 export const ResultsContainer = styled.div`
     display: flex;
     height: 100%;
-    width: 65%;
+    width: 71%;
 `
 
 export const Results = styled.div`
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    gap: 15px;
+    height: 100%;
     align-items: center;
+    gap: 2%;
     max-height: 400px;
     width: 55vw;
     position: absolute;
     left: 39.97%;
-    top: 20%;
+    margin-top: 8%;
 `
 
 export const Elipse = styled.div`
@@ -135,12 +134,12 @@ export const Note = styled.p`
     left: 40%;
     right: 11.75%;
     top: 89.17%;
-    bottom: 8.98%;
-    height: 50px;
+    bottom: 15%;
+    max-height: 50px;
     max-width: 800px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 20px;
 `
